@@ -1,0 +1,11 @@
+
+1. Update file pm.list (phisical machines list of network)
+
+TODO
+migrate
+comprobar que el estado de la maquina este aun en el servidor
+luego migrar y actualizar el estado como teleporter
+actualizar lista de maquinas
+- teleportadas
+- apagadas
+- prendidas
