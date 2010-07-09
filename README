@@ -1,11 +1,28 @@
-Steps
-1.Update file pm.list (phisical machines list of network)
+Basic Steps(VirtualBox 3.2.4r62467)
+
+1. Update pm.list (phisical machines list)
 
 TODO
-migrate
-comprobar que el estado de la maquina este aun en el servidor
-luego migrar y actualizar el estado como teleporter
-actualizar lista de maquinas
-- teleportadas
-- apagadas
-- prendidas
+
+2.1 migrate01: disjoing in createvm_target.sh and datavm_source.sh 
+> test and get data from virtualbox machines(server)
+> teleport and update the teleporter
+> update machine list: teleported, power off, power on
+
+files
+--------
+migrate.sh
+draft automatic migrate for one virtualmachine only in localhost
+
+data_source.sh(blank)
+retrieving virtual machine options
+
+createvm_targe.sh(blank)
+create a new virtual machine in other phisical machine.
+
+show_runningvms.sh
+show_teleportedvms.sh(blank)
+show_vms
+table_vms.lua
+clean_files.sh
+README
